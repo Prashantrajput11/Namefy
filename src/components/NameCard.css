@@ -1,0 +1,26 @@
+.result-name-card {
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  margin: 10px 22px;
+  /* border: 1px solid green; */
+  padding: 6px 22px;
+  background: #e3afbc;
+  border-radius: 5px;
+}
+.card-link
+{
+  text-decoration :none;;
+}
+@media only screen and (max-width: 400px) {
+  .result-name-card {
+    margin-top: 0px;
+  }
+}
+
+.result-name {
+  color: black;
+  display: flex;
+  padding: 20px 30px;
+}

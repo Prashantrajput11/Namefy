@@ -1,0 +1,24 @@
+.searchbar {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 80px auto;
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .searchbar {
+    margin-top: 200px;
+    margin-bottom: 4px;
+  }
+}
+input[type="text"] {
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: none;
+  background: #e3afbc;
+  box-shadow: 0px 3px 6px #e3afbc;
+  margin-top: 0 auto;
+  font-size: 20px;
+}
+.search-input:focus {
+  outline: none;
+}
